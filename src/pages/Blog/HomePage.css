@@ -1,0 +1,41 @@
+
+.blog{
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+img{
+    max-width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    font-size: 1.5rem;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: inherit;
+}
+.blog .logo{
+    font-weight: bold;
+}
+.posts{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap:50px;
+}
+div .texts h2{
+    margin-bottom: 0;
+}
+.info {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    color: #888;
+    font-size: .9rem;
+    display: flex;
+    gap:10px;
+}
