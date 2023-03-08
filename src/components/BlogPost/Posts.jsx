@@ -9,13 +9,12 @@ export const Posts = () => {
         setPosts(posts)
       })
     })
-  })
+  },[])
   return (
     <div className="posts">   
-    {posts.length >0 && posts.map(post =>(
+    {posts.length > 0 && posts.map(post =>(
       <Post {...post}/>
     ))}
-    {/* <Post/> */}
    </div> 
   )
 }
