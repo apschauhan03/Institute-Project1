@@ -1,0 +1,16 @@
+.CourseTile{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.CourseTile h1 {
+    font-family: 'Montserrat', sans-serif;
+    color:#157347 ;
+   font-weight: bolder;
+    padding-bottom: 5%;
+    font-weight: 600;
+    font-size: 5rem;
+}
+.socials {
+    height:100px;
+    width: 100px;
+}

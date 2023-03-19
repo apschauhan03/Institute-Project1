@@ -1,25 +1,25 @@
-import React from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
-
-function Navbar() {
-  return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/blogs">Blogs</Link>
-        </li>
-        <li>
-          <Link to="/courses">Courses</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
-  );
+import React, { useState } from "react";
+import { BrowserRouter, Route, Link } from "react-router-dom";
+import './navbar.css'
+function Navbar() {
+  return (
+    <nav className="navbar">
+      <ul className="list">
+        <li className="navbar-element Logo">
+          <Link to="/">CyberKing</Link>
+        </li>
+        <li className="navbar-element">
+          <Link to="/blogs">Blogs</Link>
+        </li>
+        <li className="navbar-element">
+          <Link to="/courses">Courses</Link>
+        </li>
+        <li className="navbar-element">
+          <Link to="/contact">Contact</Link>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
-export default Navbar;
+export default Navbar;

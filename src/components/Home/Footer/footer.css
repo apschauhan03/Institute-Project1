@@ -1,0 +1,35 @@
+footer {
+    display: flex;
+    position: sticky;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    bottom: 0;
+    height: 40vh;
+}
+.SocialsHeading {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-family: 'Montserrat', sans-serif;
+    color: #157347;
+    font-size:3em;
+   font-weight: bolder;
+}
+.Socials {
+     display: flex;
+     padding-bottom: 1%;
+}
+.copyright {
+    font-family:'Montserrat', Tahoma, Geneva, Verdana, sans-serif;
+    color: #273f33;
+    font-weight: 200;
+    margin-top:30px ;
+}
+
+.Socials img{
+    height:3rem;
+ 
+}

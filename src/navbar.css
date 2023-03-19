@@ -1,0 +1,26 @@
+.navbar {
+    background-color: black;
+    height: 15vh;
+    display: flex;
+}
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    width: 100%;
+    list-style: none;
+}
+
+.navbar-element a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.navbar-element a:hover{
+    color: #068932;
+}
+.Logo {
+    font-size: 3em;
+    font-weight: 700;
+}
