@@ -4,9 +4,9 @@ export default function Rightcontainer() {
   return (
     <div className='rightcontainer'>
       
-      <form method="post">
+      <form method="post" autoComplete='off' autoCorrect='off'>
         <div class="txt_field">
-          <input type="text" required></input>
+          <input autoSave='off' type="text" required></input>
           <span></span>
           <label>Enter your name</label>
         </div>
