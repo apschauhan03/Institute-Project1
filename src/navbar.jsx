@@ -16,7 +16,7 @@ function Navbar() {
             <Link to="/courses">Courses</Link>
           </li>
           <li className="navbar-element">
-            <Link to="/contact">Contact</Link>
+            <a href="#contactpage">Contact</a>
           </li>
         </ul>
       </div>

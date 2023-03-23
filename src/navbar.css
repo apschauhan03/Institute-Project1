@@ -19,7 +19,7 @@
     
 }
 .navbar-heading a:hover{
-    color: #068932;
+    color: #157347;
 }
 
 
@@ -53,5 +53,6 @@
     
 }
 .navbar-element a:hover{
-    color: #068932;
+    font-size: 3rem;
+    color: #157347;
 }

@@ -1,3 +1,6 @@
 .d-block {
     height: 80vh;
 }
+.slidecontainer{
+    border: solid black;
+}

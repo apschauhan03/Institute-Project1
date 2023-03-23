@@ -1,12 +1,14 @@
-.CourseTile{
-    margin-top: 10%;
-    margin-bottom: 10%;
+.coursetile{
+   height: 80vh;
+   border: solid black;
 }
-.CourseTile h1 {
+
+.coursetile h1 {
     font-family: 'Montserrat', sans-serif;
     color:#157347 ;
    font-weight: bolder;
-    padding-bottom: 5%;
+    padding-top: 7%;
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 3rem;
+    margin-bottom: 5%;
 }
