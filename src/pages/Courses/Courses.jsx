@@ -36,7 +36,7 @@ function Courses() {
           content= {course.content}
           imgUrl= {course.imgUrl}
         />
-        <CourseCard
+        {/* <CourseCard
           title= {course.title}
           content= {course.content}
           imgUrl= {course.imgUrl}
@@ -45,7 +45,7 @@ function Courses() {
           title= {course.title}
           content= {course.content}
           imgUrl= {course.imgUrl}
-        />
+        /> */}
       </div>
     </div>
   );

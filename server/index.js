@@ -4,7 +4,6 @@ const { default: mongoose } = require('mongoose')
 const User = require('./models/User')
 const PostModel = require('./models/Post')
 const bcrypt = require('bcryptjs');
-const { useDebugValue } = require('react');
 const app = express()
 const jwt = require('jsonwebtoken')
 const cookieParser = require('cookie-parser')

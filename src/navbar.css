@@ -50,9 +50,11 @@
     text-decoration: none;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+    animation: ease-in;
     
 }
 .navbar-element a:hover{
-    font-size: 3rem;
+    font-size: 120%;
     color: #157347;
 }
