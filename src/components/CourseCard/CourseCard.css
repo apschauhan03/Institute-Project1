@@ -1,6 +1,7 @@
 .card-container {
     margin: 1rem;
-    width: 300px;
+    width: 400px;
+    height: 550px;
     overflow: hidden;
     box-shadow: 0 0 15px -5px;
     transition: 0.3s;
@@ -42,6 +43,7 @@ h3,p {
 
 .btn {
     display: flex;
+    margin-top: 5rem;
     justify-content: center;
 }
 
