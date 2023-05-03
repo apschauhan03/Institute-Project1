@@ -23,7 +23,7 @@ export const Header = () => {
 
   return (
     <header>
-        <Link to="/blogs" className="logo">BLOGS</Link>
+        <Link to="/blogs" className="logo">OUR BLOGS</Link>
         <nav>
           {username && (
             <>
@@ -33,8 +33,8 @@ export const Header = () => {
           )}
           {!username && (
             <>
-             <Link to='/login'>Login</Link>
-             <Link to='/register'>register</Link>
+             {/* <Link to='/login'>Login</Link>
+             <Link to='/register'>register</Link> */}
             </>
           )}
         </nav>

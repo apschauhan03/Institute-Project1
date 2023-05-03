@@ -10,8 +10,8 @@ div.post-page div.postImg img{
     
 }
 .post-page{
-    margin: 0px 200px;
-    padding: 40px;
+    margin: 0px 20px;
+    padding: 20px;
 }
 div.post-page div.author{
     text-align: center;
@@ -21,4 +21,10 @@ div.post-page div.content p{
     margin-top: 15px;
     font-size: 1.4rem;
     line-height: 1.6rem;
+}
+@media  only screen and (min-width:700px) {
+    .post-page{
+        margin: 0px 200px;
+        padding: 40px;
+    }
 }
