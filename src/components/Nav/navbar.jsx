@@ -32,13 +32,13 @@ function Navbar() {
       <div className={showdropdown? "menu-link mobile-menu-link": "menu-link"}>
         <ul className="dropdown">
           <li className="dropdown-elements">
-            <a href="...">Blogs</a>
+            <a href="/blogs">Blogs</a>
           </li>
           <li className="dropdown-elements">
-            <a href="...">Courses</a>
+            <a href="/courses">Courses</a>
           </li>
           <li className="dropdown-elements">
-            <a href="...">Contact</a>
+            <a href="#contactpage">Contact</a>
           </li>
         </ul>
       </div>
