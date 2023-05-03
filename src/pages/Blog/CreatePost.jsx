@@ -52,11 +52,11 @@ export const CreatePost = () => {
     )
   }
   return (
-    <form onSubmit={createPost}>
+    <form className="createPost" onSubmit={createPost}>
         <input type='title' placeholder='Title' value={title} onChange={ev=>setTitle(ev.target.value)}></input>
         <input type='summary' placeholder='Summary' value={summary} onChange={ev=>setSummary(ev.target.value)}/>
         <input type="file" onChange={ev=> setFiles(ev.target.files)} />
-        <ReactQuill value={content} modules={modules} formats={formats} onChange={newValue => setContent(newValue)}/>
+        <ReactQuill className='quillBody' value={content} modules={modules} formats={formats} onChange={newValue => setContent(newValue)}/>
         <button style={{marginTop:'5px'}}>Create Post</button>
     </form>
   )

@@ -53,3 +53,12 @@ div.texts a{
     display: flex;
     gap:10px;
 }
+.createPost{
+    padding: 20px;
+    margin-bottom: 20vh;
+}
+.login{
+    margin-top: 25px;
+    margin-bottom: 20vh;
+    padding: 25px;
+}
