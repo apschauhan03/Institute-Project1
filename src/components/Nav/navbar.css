@@ -1,0 +1,121 @@
+
+
+.navbar-heading{
+    width: 50%;
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-heading a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.navbar-heading a:hover{
+    color: #157347;
+}
+
+
+.navbar {
+    background-color: black;
+    height: 10vh;
+   
+}
+
+.navright {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.navbar-element a {
+    color: white;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.3s;
+    animation: ease-in;
+    
+}
+.navbar-element a:hover{
+    font-size: 120%;
+    color: #157347;
+}
+
+
+.hamburger-menu {
+    display: none;
+}
+.menu-link {
+    display: none;
+}
+
+@media(max-width:998px) {
+    .navright {
+        display: none;
+    }
+    .navbar-heading{
+        font-size: 1.8rem;
+    }
+    .hamburger-menu {
+        display: block;
+        height: 2rem;
+        margin-right: 20px;
+    }
+/*     
+      .menu-link {
+        display: block;
+      } */
+    .mobile-menu-link {
+        display: flex;
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    margin-top: 20vh;
+    z-index: 99;
+    }
+    .mobile-menu-link a {
+        color: white;
+        text-decoration: none;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        transition: 0.3s;
+        animation: ease-in;
+        /* list-style: none; */
+    }
+    .dropdown {
+        width: 100%;
+        list-style: none;
+        align-items: center; 
+    }
+    .dropdown-elements {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .mobile-menu-link a:hover {
+        font-size: 120%;
+        color: #157347;
+    }
+}
